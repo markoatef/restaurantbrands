@@ -1,0 +1,15 @@
+.gallerybox{
+    padding: 50px 0;
+}
+.gallerybox .title{
+    padding: 0 0 0px 20px ;
+}
+
+.gallerybox .title h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+
+}
+.gallerybox .title h1 span{
+    color: #feb600;
+} 

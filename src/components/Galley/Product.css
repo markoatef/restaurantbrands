@@ -1,0 +1,78 @@
+.card{
+    position: relative !important;
+    display: flex !important;
+    /* padding: 30px; */
+    box-shadow: 0px 1px 20px 0px #e6e6e6;
+    border-radius: 20px !important;
+    overflow: hidden;
+    border: none !important;
+}
+.card .image-one{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    margin: 0 50px 0 0;
+    position: absolute;
+}
+.card .content{
+    padding: 30px 15px 20px;
+}
+.card .content h2{
+    color: #303030;
+    font-size: 30px;
+}
+
+.card .content p{
+    color: #959595;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.card .content .price{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card .content .price span{
+    color: #fd6d2c;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card .content .price button{
+    background: #ffb600;
+    color: #fff;
+    padding: 6px 18px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+ /* .slick-slide > div {
+    margin: 20px 20px;
+  }
+ .slick-list {
+    margin: 0 30px;
+  } */
+  .slick-prev:before{
+      color: #050505 !important;
+  }
+  .slick-next:before {
+    color: #050505 !important;
+  }
+  .slick-prev:before, .slick-next:before {
+
+    font-size: 30px !important;
+  }
+  .slick-dots li button:before {
+    font-size: 14px !important;
+
+  }

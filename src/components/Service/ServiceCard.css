@@ -1,0 +1,54 @@
+.ServiceCard{
+    position: relative !important;
+    display: flex !important;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 20px !important;
+    overflow: hidden;
+    border: none !important;
+    background: #fff;
+    transition:0.3s ease-in-out;
+    cursor: pointer;
+    
+}
+.ServiceCard:hover{
+    background-color: #fdb400;
+}
+
+
+.ServiceCard .icon{
+    width: 80px;
+    height: 80px;
+   background-color: #fff8e6;
+   border-radius: 50%;
+}
+.ServiceCard .content{
+    padding: 30px 15px 20px;
+}
+.ServiceCard .content h2{
+    color: #fdb400;
+    font-size: 30px;
+    transition:0.3s ease-in-out;
+
+}
+.ServiceCard:hover h2{
+    color: #ffffff;
+
+}
+
+.ServiceCard .content p{
+    color: #5a5a5a;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition:0.3s ease-in-out;
+
+}
+
+.ServiceCard:hover p{
+    color: #ffffff;
+
+}

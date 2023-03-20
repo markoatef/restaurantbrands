@@ -1,0 +1,88 @@
+.offer_section{
+    background:url(../../assets/Rectangle-2.png) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.offer_section .content{
+    text-align: center;
+    padding:30px 0;
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.offer_section .content h1,
+.offer_section .content h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+}
+
+.offer_section .content h2{
+    color: #fff;
+    font-size: 68px;
+}
+
+.offer_section .content h1{
+    color: #ffb600;
+    font-size: 80px;
+}
+
+.offer_section .content p{
+    color: #fff;
+    padding: 14px 0;
+}
+.offer_section .content .price{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 30px 0;
+
+}
+.offer_section .content .price span{
+    color: #ffb600;
+    font-size: 110px;
+    font-weight: bold;
+    line-height: 0;
+}
+.offer_section .content .price button{
+    background: #ffb600;
+    color: #fff;
+    padding: 10px 28px;
+    border: 0;
+    border-radius: 12px;
+    font-size: 24px;
+    margin-top: 16px;
+}
+.offer_section .img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.offer_section .img img{
+    width: 100%;
+    z-index: 1; 
+
+}
+
+.offer_section .yellow{
+    width: 188%;
+    height: 250px;
+    background-color: #ffb600;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+}
